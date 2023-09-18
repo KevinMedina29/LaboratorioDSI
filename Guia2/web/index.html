@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Guia 2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        body {
+            background-color: skyblue;
+        }
+    </style>
+    </head>
+    <body>
+        <h1>Ferreteria</h1>
+        <form action="ServletPrincipal" method="post">
+            Nombres: <input type="text" name="nombres" size=30><p>
+            Apellidos: <input type="text" name="apellidos" size=30><p>
+            Producto: <input type="text" name="producto" size=15><p>
+            Descripcion:<br> 
+            <textarea name="descripcion" rows=4 cols=50></textarea><p>
+            Precio: <input type="number" name="precio" step="0.00"><p>
+            Requiere envio<br>
+            <input type="radio" name="envio" value="si">si<br>
+            <input type="radio" name="envio" value="no">no
+            <p>                   
+            <input type="submit" name="botonenviar" value="ENVIAR">
+            <input type="reset" name="botonlimpiar" value="LIMPIAR">
+        </form>
+    </body>
+</html>
